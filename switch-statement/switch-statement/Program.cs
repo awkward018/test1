@@ -12,6 +12,23 @@ namespace switch_statement
         {
             Color color =(Color) (new System.Random().Next(0, 3));
             Console.WriteLine(color);
+            switch (color)
+            {
+                case Color.Red:
+                    Console.WriteLine("The color is red");
+                    break;
+                case Color.Green:
+                    Console.WriteLine("The color is green");
+                    break;
+                case Color.Blue:
+                    Console.WriteLine("The color is blue");
+                    break;
+                default:
+                    //TODO
+                    Console.WriteLine("No color defined");
+                    break;
+             
+            }
             Console.Read();
         }
     }
