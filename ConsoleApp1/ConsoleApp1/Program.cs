@@ -18,7 +18,8 @@ namespace ConsoleApp1
             else if (time > 12 && time < 15)
                 Console.WriteLine("Good day, Guys");
             else if (time > 15 && time < 22)
-                Console.WriteLine("Good evening/");
+                Console.WriteLine("Good evening, Guys");
+            Console.ReadLine();
 
         }
     }
