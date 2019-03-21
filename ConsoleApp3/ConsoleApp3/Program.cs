@@ -10,10 +10,13 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
-            char[] str1 = @"\\server\file\file.txt".ToCharArray();
 
-            string str2 = new string(str1);
-            Console.WriteLine(str2);
+            string nullStr = null;
+            Console.WriteLine(nullStr == null);
+            Console.WriteLine(nullStr == string.Empty);
+            Console.WriteLine(nullStr.Length);//reference exeption
+            Console.WriteLine(string.Empty.Length);
+
             Console.ReadLine();
         }
     }
