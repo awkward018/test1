@@ -10,13 +10,11 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
+            string str1 = "hello" + "," + "guys";
+            string str2 = "result:" + 2 + "+" + 5 + "=";
 
-            string nullStr = null;
-            Console.WriteLine(nullStr == null);
-            Console.WriteLine(nullStr == string.Empty);
-            Console.WriteLine(nullStr.Length);//reference exeption
-            Console.WriteLine(string.Empty.Length);
-
+                Console.WriteLine(str1);
+            Console.WriteLine(str2);
             Console.ReadLine();
         }
     }
