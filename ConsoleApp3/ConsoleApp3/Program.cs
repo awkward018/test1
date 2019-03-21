@@ -10,9 +10,10 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
-            string str1 = @"\\server\file\file.txt";
+            char[] str1 = @"\\server\file\file.txt".ToCharArray();
 
-            Console.WriteLine(str1);
+            string str2 = new string(str1);
+            Console.WriteLine(str2);
             Console.ReadLine();
         }
     }
