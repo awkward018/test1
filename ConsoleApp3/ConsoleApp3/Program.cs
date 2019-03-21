@@ -10,8 +10,9 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
-            string str1 = "hello" + "," + "guys";
-            string str2 = "result:" + 2 + "+" + 5 + "=";
+            string str1 = "Hello" + "," + "guys!";
+            string str2 = "Result:" + 2 + "+" + 5 + "=";
+            
 
                 Console.WriteLine(str1);
             Console.WriteLine(str2);
